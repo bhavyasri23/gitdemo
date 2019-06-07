@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Examples">
+    <classes>
+          <class name="test.com.Ex2"/>
+          <methods>
+              <exclude name="lan2"/>
+          
+         </methods>
+         <class name ="test.com.Ex1"/>
+         <class name ="test.com.Testxml"/>
+         
+         
+</classes>
+   </test> 
+   <test name="Demos">
+   <classes>
+            <class name="tes.com.Ex3"/>
+            <methods>
+                 <include name="code2"/>
+            
+            </methods>
+            </class>  
+   
+   </classes>
+   
+   
+   </test>
+ 
+  </suite>

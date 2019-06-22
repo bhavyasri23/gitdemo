@@ -25,7 +25,7 @@ public class HashTableEx {
 	
 	while(it.hasNext()) 
 	{	
-Map.Entry	mp=(Map.Entry)it.next();
+Map.Entry mp=(Map.Entry)it.next();
 System.out.println(mp.getKey());
 System.out.println(mp.getValue());
 		

@@ -23,7 +23,7 @@ public class Datadriven {
 		driver.findElement(By.className("button r4 wide primary")).click();
 
 	}
-	/*@DataProvider
+	@DataProvider
 	
 	public Object[][]  getdata()
 	{
@@ -43,5 +43,5 @@ public class Datadriven {
 		
 		return getdata();
 	}
-*/
+
 }
